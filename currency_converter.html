@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/currency_converter.css">
+</head>
+<body>
+    <main>
+        <h1 class="heading-project">
+            Project Currency Converter
+        </h1>
+
+        <div class="currency-converter-contain">
+            <h1 class="heading-currency-converter">Currency Converter</h1>
+            <div class="exchange-rate">
+                <div id="base-unit"></div>
+                <div id="target-rate"></div>
+            </div>
+            <div class="input-group">
+                <input type="number" class="input-box" id="base-amount">
+                <select name="" id="base-code" class="select-box"></select>
+                <input type="number" class="input-box" id="target-amount">
+                <select name="" id="target-code" class="input-box"></select>
+            </div>
+            <p id="error-message"></p>
+        </div>
+    </main>
+    <script src="./assets/js/currency_converter.js"></script>
+</body>
+</html>
